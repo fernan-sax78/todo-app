@@ -29,8 +29,8 @@
   font-size: 1.2rem;
   text-align: center;
 } */
-.success{
-  color:#5cb85c;
+.message{
+  color:#000;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -45,6 +45,9 @@
   font-size: 1.8rem;
 }
 
+body{
+  background-color: #9ededf;
+}
 
 /* .App-link {
   color: #61dafb;

@@ -10,7 +10,7 @@ function TodoEmpty(props){
 
         
     
-        <p className ='success'>
+        <p className ='message'>
     " Nothin' yet with  <span className='evidente'>{props.valor} </span>, Add your TODO... Clicking on the button bellow"
   
 
