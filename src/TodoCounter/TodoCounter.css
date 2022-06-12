@@ -1,0 +1,23 @@
+
+.divContainer{
+    background-color: #2884dc;
+    padding: 1.25rem;
+    margin: .725rem;
+    border-radius: 1.25rem;
+}
+
+
+
+.h2Todo{
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+   
+}
+
+ .title{
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+} 
+

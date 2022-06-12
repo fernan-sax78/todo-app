@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -11,7 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} 
 
 .App-header {
   background-color: #282c34;
@@ -22,9 +22,31 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}*/
+
+/* .charging{
+  color: #f0ad4e;
+  font-size: 1.2rem;
+  text-align: center;
+} */
+.success{
+  color:#5cb85c;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.error{
+  color:#d9534f;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
-.App-link {
+.evidente{
+  color : #000;
+  font-size: 1.8rem;
+}
+
+
+/* .App-link {
   color: #61dafb;
 }
 
@@ -36,3 +58,4 @@
     transform: rotate(360deg);
   }
 }
+ */
