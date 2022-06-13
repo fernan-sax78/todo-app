@@ -13,6 +13,7 @@ function TodoForm() {
     } = React.useContext(TodoContext);
 
     const onChange = (event) => {
+
           setNewTodoValue(event.target.value);
     };
 
@@ -25,7 +26,14 @@ const onCancel = () => {
 const onSubmit = (event) => {
 
     event.preventDefault();
-    addTodo(newTodoValue);
+    /* addTodo(newTodoValue); */
+
+             if (newTodoValue.length >= 39) {
+       let anteprima = newTodoValue.slice(0,39) + '...';
+       addTodo(anteprima);
+    }
+
+
     setOpenModal(false);
 };
 
@@ -54,7 +62,10 @@ const onSubmit = (event) => {
            type='submit'
            onClick={onSubmit}
            className = "TodoForm-button TodoForm-buttonContainer_btnAdd"
+           
            >
+
+   
                Add
            </button>
 
