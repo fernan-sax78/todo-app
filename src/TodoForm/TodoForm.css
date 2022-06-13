@@ -22,7 +22,7 @@ label {
 textarea{
     background-color: #fff;
     border: none;
-    border-bottom: 1px solid #dedede;
+    border-bottom: .0625rem solid #dedede;
     font-size: 1.2rem;
     font-family: sans-serif;
     text-align: center;
@@ -31,6 +31,7 @@ textarea{
     width: calc(100% - 1.5625rem);
     resize: none;
     overflow: hidden;
+    margin: .625rem auto;
 }
 
 

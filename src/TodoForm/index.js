@@ -28,9 +28,17 @@ const onSubmit = (event) => {
     event.preventDefault();
     /* addTodo(newTodoValue); */
 
-             if (newTodoValue.length >= 39) {
-       let anteprima = newTodoValue.slice(0,39) + '...';
-       addTodo(anteprima);
+             if (newTodoValue.length >= 38) {
+       console.log('mas de 38');
+       
+       addTodo(newTodoValue.slice(0,38) + '...');
+       
+    }else{
+
+        addTodo(newTodoValue);
+
+        console.log('menos de 38')
+        
     }
 
 
